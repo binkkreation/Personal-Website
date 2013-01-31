@@ -2706,9 +2706,9 @@ body {
 /* line 62, ../sass/screen.scss */
 #header {
   background: white;
-  height: 200px;
-  padding-top: 30px;
+  padding-top: 2.25em;
   margin-top: 30px;
+  padding-bottom: 2.25em;
 }
 
 /* line 68, ../sass/screen.scss */
