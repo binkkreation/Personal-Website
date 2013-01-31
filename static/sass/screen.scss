@@ -5,6 +5,7 @@
 @import "compass/reset";
 @import "base";
 @import "fonts";
+@import "typo";
 
 /* -------------------------------------------------------------------------*/
 
@@ -56,15 +57,13 @@ strong {
 body {
 	background: $background;
 	color:$background;
-	font-family: "museo-slab",museo;
-	}
+}
 
 #header{
 	background:$blanc;
 	height:200px;
 	padding-top:30px;
 	margin-top: 30px;
-	font-size:1.6em;
 }
 #footer{
 	background:$blanc;
@@ -87,19 +86,7 @@ body {
 	text-align:center;
 }
 
-#container-header h1 {
-font-size: 1em;
-line-height: 2em;
-font-weight: bold;
-}
 
-#container-header h2 {
-font-size: 0.7em;
-}
-
-#container-header h3{
-	padding-top:1em;
-}
 .picto-sociaux{
 	font-family:"SSSocial";
 	font-size: 1.3em;

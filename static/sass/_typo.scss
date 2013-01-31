@@ -1,0 +1,28 @@
+@import "compass/typography";
+
+$relative-font-sizing : true;
+$base-font-size       : 16px;
+$base-line-height     : 24px;
+
+@include establish-baseline;
+
+body {
+    font-family: "museo-slab", museo, georgia, serif;
+}
+
+h1 {
+    @include adjust-font-size-to(32px);
+    line-height: 2em;
+    font-weight: bold;
+}
+
+#container-header {
+    h2 {
+        @include adjust-font-size-to(19px);
+    }
+    
+    h3 {
+    	padding-top:1em;
+        @include adjust-font-size-to(20px);
+    }
+}
