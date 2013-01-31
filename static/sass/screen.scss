@@ -1,0 +1,195 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "compass";
+@import "compass/reset";
+@import "base";
+@import "fonts";
+
+/* -------------------------------------------------------------------------*/
+
+// Default single box shadow
+.box-shadow-default {
+  @include single-box-shadow; }
+
+.box-shadow-custom-multiple {
+  @include box-shadow(rgba(black, 0.2) 0 0 3px 1px); }
+
+
+
+/* Layout */
+html, body {
+    height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.typekit-badge {
+	display: none !important;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+	@include susy-grid-background;
+    @include container;
+    /*@include at-breakpoint($break) {
+        @include container;
+    }*/
+}
+
+body {
+	background: $background;
+	color:$background;
+	font-family: "museo-slab",museo;
+	}
+
+#header{
+	background:$blanc;
+	height:200px;
+	padding-top:30px;
+	margin-top: 30px;
+	font-size:1.6em;
+}
+#footer{
+	background:$blanc;
+	height:50px;
+	padding-top:10px;
+	margin-top: 10px;
+	font-size:1em;
+	text-align:center;
+}
+#footer p{
+	margin-top:13px;
+}
+
+#container-header{
+	/*@include at-breakpoint($break) {
+		@include span-columns(9, 9);
+	}*/
+}
+#container-header h1,#container-header h2,#container-header h3{
+	text-align:center;
+}
+
+#container-header h1 {
+font-size: 1em;
+line-height: 2em;
+font-weight: bold;
+}
+
+#container-header h2 {
+font-size: 0.7em;
+}
+
+#container-header h3{
+	padding-top:1em;
+}
+.picto-sociaux{
+	font-family:"SSSocial";
+	font-size: 1.3em;
+	color:$background;
+	text-decoration:none;
+	padding:0 5px 0 5px;
+}
+
+#twitter:hover{
+	color:$twitter-color;
+}
+#dribbble:hover{
+	color:$dribbble-color;
+}
+#instagram:hover{
+	color:$instagram-color;
+}
+#wordpress:hover{
+	color:$wordpress-color;
+}
+#contenu{
+	color:$title;
+	margin-top:10px;
+	padding:10px;
+}
+#contenu h2 {
+margin-bottom: 15px;
+font-size: 1.3em;
+}
+.picto-line{
+	font-family:"SSSymbolicons";
+	font-size:1.2em;
+	margin-right:17px;	
+}
+#contenu a{
+	color:$link;
+	text-decoration:none;
+}
+
+
+#webdesign, #dev, #competences{
+	margin-top:30px;
+}
+#competences ul li{
+	margin-bottom:10px;
+}
+#webdesign p, #dev p{
+	color:$blanc;
+	line-height:1.6em;
+	font-size:0.9em;
+}
+.title-skill{
+	color:$link;
+	margin-left:20px;
+}
+
+.star-on{
+	font-family:"SSSymbolicons";
+	font-size: 1.2em;
+	margin-right: 0.2em;
+	color:$link;	
+}
+.star-off{
+	font-family:"SSSymbolicons";
+	font-size: 1.2em;
+	margin-right: 0.2em;	
+}
+
+#projets h2{
+	margin-top:35px;
+}
+
+.projet{
+	background:$title;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:8px;
+}
+
+
+.container-projet h3{
+	margin-top:10px;
+	margin-bottom: 15px;
+	font-size: 1.2em;
+}
+.container-projet p{
+	line-height: 1.6em;
+	margin-bottom:40px;
+}
+
+
+
