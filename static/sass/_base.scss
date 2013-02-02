@@ -8,11 +8,11 @@
 
 $total-columns  : 4;
 $column-width   : 4em;
-$gutter-width   : 2em;
+$gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
 $break: 40em 9 lt-ie9;
-$show-grid-backgrounds  : true;
+$show-grid-backgrounds  : false;
 
 // Colors
 $background: #333842;

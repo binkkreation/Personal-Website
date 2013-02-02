@@ -2600,8 +2600,8 @@ body {
 
 /* line 13, ../sass/_typo.scss */
 h1 {
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 1.875em;
+  line-height: 1.6em;
   line-height: 2em;
   font-weight: bold;
 }
@@ -2669,12 +2669,6 @@ strong {
 
 /* line 49, ../sass/screen.scss */
 .container {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(18.18182%, rgba(100, 100, 225, 0.25)), color-stop(18.18182%, rgba(0, 0, 0, 0)), color-stop(27.27273%, rgba(0, 0, 0, 0)), color-stop(27.27273%, rgba(100, 100, 225, 0.25)), color-stop(45.45455%, rgba(100, 100, 225, 0.25)), color-stop(45.45455%, rgba(0, 0, 0, 0)), color-stop(54.54545%, rgba(0, 0, 0, 0)), color-stop(54.54545%, rgba(100, 100, 225, 0.25)), color-stop(72.72727%, rgba(100, 100, 225, 0.25)), color-stop(72.72727%, rgba(0, 0, 0, 0)), color-stop(81.81818%, rgba(0, 0, 0, 0)), color-stop(81.81818%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 18.18182%, rgba(0, 0, 0, 0) 18.18182%, rgba(0, 0, 0, 0) 27.27273%, rgba(100, 100, 225, 0.25) 27.27273%, rgba(100, 100, 225, 0.25) 45.45455%, rgba(0, 0, 0, 0) 45.45455%, rgba(0, 0, 0, 0) 54.54545%, rgba(100, 100, 225, 0.25) 54.54545%, rgba(100, 100, 225, 0.25) 72.72727%, rgba(0, 0, 0, 0) 72.72727%, rgba(0, 0, 0, 0) 81.81818%, rgba(100, 100, 225, 0.25) 81.81818%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 18.18182%, rgba(0, 0, 0, 0) 18.18182%, rgba(0, 0, 0, 0) 27.27273%, rgba(100, 100, 225, 0.25) 27.27273%, rgba(100, 100, 225, 0.25) 45.45455%, rgba(0, 0, 0, 0) 45.45455%, rgba(0, 0, 0, 0) 54.54545%, rgba(100, 100, 225, 0.25) 54.54545%, rgba(100, 100, 225, 0.25) 72.72727%, rgba(0, 0, 0, 0) 72.72727%, rgba(0, 0, 0, 0) 81.81818%, rgba(100, 100, 225, 0.25) 81.81818%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 18.18182%, rgba(0, 0, 0, 0) 18.18182%, rgba(0, 0, 0, 0) 27.27273%, rgba(100, 100, 225, 0.25) 27.27273%, rgba(100, 100, 225, 0.25) 45.45455%, rgba(0, 0, 0, 0) 45.45455%, rgba(0, 0, 0, 0) 54.54545%, rgba(100, 100, 225, 0.25) 54.54545%, rgba(100, 100, 225, 0.25) 72.72727%, rgba(0, 0, 0, 0) 72.72727%, rgba(0, 0, 0, 0) 81.81818%, rgba(100, 100, 225, 0.25) 81.81818%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 18.18182%, rgba(0, 0, 0, 0) 18.18182%, rgba(0, 0, 0, 0) 27.27273%, rgba(100, 100, 225, 0.25) 27.27273%, rgba(100, 100, 225, 0.25) 45.45455%, rgba(0, 0, 0, 0) 45.45455%, rgba(0, 0, 0, 0) 54.54545%, rgba(100, 100, 225, 0.25) 54.54545%, rgba(100, 100, 225, 0.25) 72.72727%, rgba(0, 0, 0, 0) 72.72727%, rgba(0, 0, 0, 0) 81.81818%, rgba(100, 100, 225, 0.25) 81.81818%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-position: left top;
   -webkit-background-origin: content;
   -moz-background-origin: content;
   -ms-background-origin: content-box;
@@ -2684,10 +2678,10 @@ strong {
   -moz-background-clip: content-box;
   background-clip: content-box;
   *zoom: 1;
-  max-width: 22em;
-  _width: 22em;
-  padding-left: 2em;
-  padding-right: 2em;
+  max-width: 19em;
+  _width: 19em;
+  padding-left: 1em;
+  padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
   /*@include at-breakpoint($break) {
@@ -2846,7 +2840,7 @@ body {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 /* line 171, ../sass/screen.scss */
