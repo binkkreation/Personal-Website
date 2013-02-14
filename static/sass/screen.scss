@@ -49,9 +49,9 @@ strong {
 .container {
 	@include susy-grid-background;
     @include container;
-    /*@include at-breakpoint($break) {
+    @include at-breakpoint($break) {
         @include container;
-    }*/
+    }
 }
 
 body {
@@ -101,8 +101,8 @@ body {
 #dribbble:hover{
 	color:$dribbble-color;
 }
-#instagram:hover{
-	color:$instagram-color;
+#github:hover{
+	color:$github-color;
 }
 #wordpress:hover{
 	color:$wordpress-color;
@@ -113,8 +113,11 @@ body {
 	/*padding:10px;*/
 }
 #contenu h2 {
-margin-bottom: 15px;
-font-size: 1.3em;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+	@include at-breakpoint($break) {
+		@include adjust-font-size-to(16px);
+    }
 }
 .picto-line{
 	font-family:"SSSymbolicons";
@@ -127,12 +130,54 @@ font-size: 1.3em;
 }
 
 
-#webdesign, #dev, #competences{
+#webdesign {
 	margin-top:30px;
+	@include span-columns(4, 4);
+	@include at-breakpoint($break) {
+		@include span-columns(2, 4);
+	}
 }
+
+#dev {
+	margin-top:30px;
+	@include span-columns(4, 4);
+	@include at-breakpoint($break) {
+		@include span-columns(2 omega, 4);
+	}
+}
+
+#competences {
+	margin-top:30px;
+	@include span-columns(4, 4);
+	
+	@include at-breakpoint($break) {
+		@include span-columns(9 omega, 9);
+	}
+}
+
+#projets {
+	@include span-columns(4, 4);
+}
+
+.container-projet {
+	
+}
+
 #competences ul li{
 	margin-bottom:10px;
+	@include at-breakpoint($break) {
+		@include span-columns(3, 9);
+	}
+	
+	&:nth-child(3n) {
+		@include at-breakpoint($break) {
+			@include span-columns(3 omega, 9);
+		}
+	}
 }
+
+
+
 #webdesign p, #dev p{
 	color:$blanc;
 	line-height:1.6em;

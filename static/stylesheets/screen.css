@@ -2678,18 +2678,47 @@ strong {
   -moz-background-clip: content-box;
   background-clip: content-box;
   *zoom: 1;
-  max-width: 19em;
-  _width: 19em;
+  max-width: 23em;
+  _width: 23em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
-  /*@include at-breakpoint($break) {
-      @include container;
-  }*/
 }
 /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 40em) {
+  /* line 49, ../sass/screen.scss */
+  .container {
+    max-width: 53em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 .container {
+  *zoom: 1;
+  max-width: 53em;
+  _width: 53em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lt-ie9 .container:after {
   content: "";
   display: table;
   clear: both;
@@ -2756,8 +2785,8 @@ body {
 }
 
 /* line 104, ../sass/screen.scss */
-#instagram:hover {
-  color: #3f72a0;
+#github:hover {
+  color: #4183c4;
 }
 
 /* line 107, ../sass/screen.scss */
@@ -2777,44 +2806,164 @@ body {
   margin-bottom: 15px;
   font-size: 1.3em;
 }
+@media (min-width: 40em) {
+  /* line 115, ../sass/screen.scss */
+  #contenu h2 {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #contenu h2 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
 
-/* line 119, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .picto-line {
   font-family: "SSSymbolicons";
   font-size: 1.2em;
   margin-right: 17px;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #contenu a {
   color: #2adbeb;
   text-decoration: none;
 }
 
-/* line 130, ../sass/screen.scss */
-#webdesign, #dev, #competences {
+/* line 133, ../sass/screen.scss */
+#webdesign {
   margin-top: 30px;
+  width: 100%;
+  float: left;
+  margin-right: 4.34783%;
+  display: inline;
+}
+@media (min-width: 40em) {
+  /* line 133, ../sass/screen.scss */
+  #webdesign {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #webdesign {
+  width: 47.82609%;
+  float: left;
+  margin-right: 4.34783%;
+  display: inline;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
+#dev {
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  margin-right: 4.34783%;
+  display: inline;
+}
+@media (min-width: 40em) {
+  /* line 141, ../sass/screen.scss */
+  #dev {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #dev {
+  width: 47.82609%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 149, ../sass/screen.scss */
+#competences {
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  margin-right: 4.34783%;
+  display: inline;
+}
+@media (min-width: 40em) {
+  /* line 149, ../sass/screen.scss */
+  #competences {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #competences {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 158, ../sass/screen.scss */
+#projets {
+  width: 100%;
+  float: left;
+  margin-right: 4.34783%;
+  display: inline;
+}
+
+/* line 166, ../sass/screen.scss */
 #competences ul li {
   margin-bottom: 10px;
 }
+@media (min-width: 40em) {
+  /* line 166, ../sass/screen.scss */
+  #competences ul li {
+    width: 32.07547%;
+    float: left;
+    margin-right: 1.88679%;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #competences ul li {
+  width: 32.07547%;
+  float: left;
+  margin-right: 1.88679%;
+  display: inline;
+}
+@media (min-width: 40em) {
+  /* line 172, ../sass/screen.scss */
+  #competences ul li:nth-child(3n) {
+    width: 32.07547%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 #competences ul li:nth-child(3n) {
+  width: 32.07547%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
 
-/* line 136, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 #webdesign p, #dev p {
   color: white;
   line-height: 1.6em;
   font-size: 0.9em;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .title-skill {
   color: #2adbeb;
   margin-left: 20px;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .star-on {
   font-family: "SSSymbolicons";
   font-size: 1.2em;
@@ -2822,19 +2971,19 @@ body {
   color: #2adbeb;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .star-off {
   font-family: "SSSymbolicons";
   font-size: 1.2em;
   margin-right: 0.2em;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #projets h2 {
   margin-top: 35px;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .projet {
   background: #737e95;
   padding-top: 10px;
@@ -2843,14 +2992,14 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .container-projet h3 {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 1.2em;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .container-projet p {
   line-height: 1.6em;
   margin-bottom: 40px;
