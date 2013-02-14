@@ -67,10 +67,9 @@ body {
 }
 #footer{
 	background:$blanc;
-	height:50px;
-	padding-top:10px;
-	margin-top: 10px;
-	font-size:1em;
+	@include padding-leader(0.5);
+	@include padding-trailer(0.5);
+	@include adjust-font-size-to(14px);
 	text-align:center;
 }
 #footer p{
@@ -186,18 +185,29 @@ body {
 .title-skill{
 	color:$link;
 	margin-left:20px;
+	@include at-breakpoint($break) {
+		font-size:0.9em;
+		margin-left:10px;
+    }
+	
 }
 
 .star-on{
 	font-family:"SSSymbolicons";
-	font-size: 1.2em;
+	@include adjust-font-size-to(20px);
 	margin-right: 0.2em;
-	color:$link;	
+	color:$link;
+	@include at-breakpoint($break) {
+		@include adjust-font-size-to(17px);
+	}	
 }
 .star-off{
 	font-family:"SSSymbolicons";
-	font-size: 1.2em;
-	margin-right: 0.2em;	
+	@include adjust-font-size-to(20px);
+	margin-right: 0.2em;
+	@include at-breakpoint($break) {
+		@include adjust-font-size-to(17px);
+	}	
 }
 
 #projets h2{

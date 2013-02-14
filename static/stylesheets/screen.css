@@ -2741,31 +2741,31 @@ body {
 /* line 68, ../sass/screen.scss */
 #footer {
   background: white;
-  height: 50px;
-  padding-top: 10px;
-  margin-top: 10px;
-  font-size: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  font-size: 0.875em;
+  line-height: 1.71429em;
   text-align: center;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 #footer p {
   margin-top: 13px;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #container-header {
   /*@include at-breakpoint($break) {
   	@include span-columns(9, 9);
   }*/
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 #container-header h1, #container-header h2, #container-header h3 {
   text-align: center;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .picto-sociaux {
   font-family: "SSSocial";
   font-size: 1.3em;
@@ -2774,40 +2774,40 @@ body {
   padding: 0 5px 0 5px;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #twitter:hover {
   color: #73d4f9;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 #dribbble:hover {
   color: #ea4c89;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #github:hover {
   color: #4183c4;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #wordpress:hover {
   color: #21759b;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #contenu {
   color: #737e95;
   margin-top: 10px;
   /*padding:10px;*/
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 #contenu h2 {
   margin-bottom: 15px;
   font-size: 1.3em;
 }
 @media (min-width: 40em) {
-  /* line 115, ../sass/screen.scss */
+  /* line 114, ../sass/screen.scss */
   #contenu h2 {
     font-size: 1em;
     line-height: 1.5em;
@@ -2819,20 +2819,20 @@ body {
   line-height: 1.5em;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .picto-line {
   font-family: "SSSymbolicons";
   font-size: 1.2em;
   margin-right: 17px;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #contenu a {
   color: #2adbeb;
   text-decoration: none;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #webdesign {
   margin-top: 30px;
   width: 100%;
@@ -2841,7 +2841,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 133, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   #webdesign {
     width: 47.82609%;
     float: left;
@@ -2856,7 +2856,7 @@ body {
   display: inline;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #dev {
   margin-top: 30px;
   width: 100%;
@@ -2865,7 +2865,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 141, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   #dev {
     width: 47.82609%;
     float: right;
@@ -2881,7 +2881,7 @@ body {
   display: inline;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #competences {
   margin-top: 30px;
   width: 100%;
@@ -2890,7 +2890,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 149, ../sass/screen.scss */
+  /* line 148, ../sass/screen.scss */
   #competences {
     width: 100%;
     float: right;
@@ -2906,7 +2906,7 @@ body {
   display: inline;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #projets {
   width: 100%;
   float: left;
@@ -2914,12 +2914,12 @@ body {
   display: inline;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #competences ul li {
   margin-bottom: 10px;
 }
 @media (min-width: 40em) {
-  /* line 166, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #competences ul li {
     width: 32.07547%;
     float: left;
@@ -2934,7 +2934,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 172, ../sass/screen.scss */
+  /* line 171, ../sass/screen.scss */
   #competences ul li:nth-child(3n) {
     width: 32.07547%;
     float: right;
@@ -2950,40 +2950,78 @@ body {
   display: inline;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #webdesign p, #dev p {
   color: white;
   line-height: 1.6em;
   font-size: 0.9em;
 }
 
-/* line 186, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .title-skill {
   color: #2adbeb;
   margin-left: 20px;
 }
+@media (min-width: 40em) {
+  /* line 185, ../sass/screen.scss */
+  .title-skill {
+    font-size: 0.9em;
+    margin-left: 10px;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 .title-skill {
+  font-size: 0.9em;
+  margin-left: 10px;
+}
 
-/* line 191, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .star-on {
   font-family: "SSSymbolicons";
-  font-size: 1.2em;
+  font-size: 1.25em;
+  line-height: 1.2em;
   margin-right: 0.2em;
   color: #2adbeb;
 }
-
-/* line 197, ../sass/screen.scss */
-.star-off {
-  font-family: "SSSymbolicons";
-  font-size: 1.2em;
-  margin-right: 0.2em;
+@media (min-width: 40em) {
+  /* line 195, ../sass/screen.scss */
+  .star-on {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 .star-on {
+  font-size: 1.0625em;
+  line-height: 1.41176em;
 }
 
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
+.star-off {
+  font-family: "SSSymbolicons";
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-right: 0.2em;
+}
+@media (min-width: 40em) {
+  /* line 204, ../sass/screen.scss */
+  .star-off {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+  }
+}
+/* line 91, ../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_media.scss */
+.lt-ie9 .star-off {
+  font-size: 1.0625em;
+  line-height: 1.41176em;
+}
+
+/* line 213, ../sass/screen.scss */
 #projets h2 {
   margin-top: 35px;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .projet {
   background: #737e95;
   padding-top: 10px;
@@ -2992,14 +3030,14 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .container-projet h3 {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 1.2em;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .container-projet p {
   line-height: 1.6em;
   margin-bottom: 40px;
