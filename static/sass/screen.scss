@@ -8,6 +8,16 @@
 @import "typo";
 
 /* -------------------------------------------------------------------------*/
+::selection
+{
+color:$background;
+background:$link;
+}
+::-moz-selection
+{
+	color:$background;
+	background:$link;
+}
 
 // Default single box shadow
 .box-shadow-default {

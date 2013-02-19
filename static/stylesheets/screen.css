@@ -2619,14 +2619,26 @@ h1 {
 }
 
 /* -------------------------------------------------------------------------*/
-/* line 13, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
+::selection {
+  color: #333842;
+  background: #2adbeb;
+}
+
+/* line 17, ../sass/screen.scss */
+::-moz-selection {
+  color: #333842;
+  background: #2adbeb;
+}
+
+/* line 23, ../sass/screen.scss */
 .box-shadow-default {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .box-shadow-custom-multiple {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px 1px;
@@ -2634,40 +2646,40 @@ h1 {
 }
 
 /* Layout */
-/* line 22, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .typekit-badge {
   display: none !important;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 img {
   width: auto;
   height: auto;
   max-width: 100%;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .container {
   -webkit-background-origin: content;
   -moz-background-origin: content;
@@ -2692,7 +2704,7 @@ strong {
   clear: both;
 }
 @media (min-width: 40em) {
-  /* line 49, ../sass/screen.scss */
+  /* line 59, ../sass/screen.scss */
   .container {
     max-width: 53em;
     padding-left: 1em;
@@ -2724,13 +2736,13 @@ strong {
   clear: both;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 body {
   background: #333842;
   color: #333842;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #header {
   background: white;
   padding-top: 2.25em;
@@ -2738,7 +2750,7 @@ body {
   padding-bottom: 2.25em;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #footer {
   background: white;
   padding-top: 0.75em;
@@ -2748,24 +2760,24 @@ body {
   text-align: center;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #footer p {
   margin-top: 13px;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #container-header {
   /*@include at-breakpoint($break) {
   	@include span-columns(9, 9);
   }*/
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #container-header h1, #container-header h2, #container-header h3 {
   text-align: center;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .picto-sociaux {
   font-family: "SSSocial";
   font-size: 1.3em;
@@ -2774,40 +2786,40 @@ body {
   padding: 0 5px 0 5px;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 #twitter:hover {
   color: #73d4f9;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 #dribbble:hover {
   color: #ea4c89;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 #github:hover {
   color: #4183c4;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #wordpress:hover {
   color: #21759b;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #contenu {
   color: #737e95;
   margin-top: 10px;
   /*padding:10px;*/
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #contenu h2 {
   margin-bottom: 15px;
   font-size: 1.3em;
 }
 @media (min-width: 40em) {
-  /* line 114, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   #contenu h2 {
     font-size: 1em;
     line-height: 1.5em;
@@ -2819,20 +2831,20 @@ body {
   line-height: 1.5em;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .picto-line {
   font-family: "SSSymbolicons";
   font-size: 1.2em;
   margin-right: 17px;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 #contenu a {
   color: #2adbeb;
   text-decoration: none;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #webdesign {
   margin-top: 30px;
   width: 100%;
@@ -2841,7 +2853,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 132, ../sass/screen.scss */
+  /* line 142, ../sass/screen.scss */
   #webdesign {
     width: 47.82609%;
     float: left;
@@ -2856,7 +2868,7 @@ body {
   display: inline;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #dev {
   margin-top: 30px;
   width: 100%;
@@ -2865,7 +2877,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 140, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   #dev {
     width: 47.82609%;
     float: right;
@@ -2881,7 +2893,7 @@ body {
   display: inline;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #competences {
   margin-top: 30px;
   width: 100%;
@@ -2890,7 +2902,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 148, ../sass/screen.scss */
+  /* line 158, ../sass/screen.scss */
   #competences {
     width: 100%;
     float: right;
@@ -2906,7 +2918,7 @@ body {
   display: inline;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 #projets {
   width: 100%;
   float: left;
@@ -2914,12 +2926,12 @@ body {
   display: inline;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #competences ul li {
   margin-bottom: 10px;
 }
 @media (min-width: 40em) {
-  /* line 165, ../sass/screen.scss */
+  /* line 175, ../sass/screen.scss */
   #competences ul li {
     width: 32.07547%;
     float: left;
@@ -2934,7 +2946,7 @@ body {
   display: inline;
 }
 @media (min-width: 40em) {
-  /* line 171, ../sass/screen.scss */
+  /* line 181, ../sass/screen.scss */
   #competences ul li:nth-child(3n) {
     width: 32.07547%;
     float: right;
@@ -2950,20 +2962,20 @@ body {
   display: inline;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #webdesign p, #dev p {
   color: white;
   line-height: 1.6em;
   font-size: 0.9em;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .title-skill {
   color: #2adbeb;
   margin-left: 20px;
 }
 @media (min-width: 40em) {
-  /* line 185, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   .title-skill {
     font-size: 0.9em;
     margin-left: 10px;
@@ -2975,7 +2987,7 @@ body {
   margin-left: 10px;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .star-on {
   font-family: "SSSymbolicons";
   font-size: 1.25em;
@@ -2984,7 +2996,7 @@ body {
   color: #2adbeb;
 }
 @media (min-width: 40em) {
-  /* line 195, ../sass/screen.scss */
+  /* line 205, ../sass/screen.scss */
   .star-on {
     font-size: 1.0625em;
     line-height: 1.41176em;
@@ -2996,7 +3008,7 @@ body {
   line-height: 1.41176em;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .star-off {
   font-family: "SSSymbolicons";
   font-size: 1.25em;
@@ -3004,7 +3016,7 @@ body {
   margin-right: 0.2em;
 }
 @media (min-width: 40em) {
-  /* line 204, ../sass/screen.scss */
+  /* line 214, ../sass/screen.scss */
   .star-off {
     font-size: 1.0625em;
     line-height: 1.41176em;
@@ -3016,12 +3028,12 @@ body {
   line-height: 1.41176em;
 }
 
-/* line 213, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 #projets h2 {
   margin-top: 35px;
 }
 
-/* line 217, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .projet {
   background: #737e95;
   padding-top: 10px;
@@ -3030,14 +3042,14 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .container-projet h3 {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 1.2em;
 }
 
-/* line 231, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .container-projet p {
   line-height: 1.6em;
   margin-bottom: 40px;
